@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    gap: 40px;
+    background-color: grey;
+    color: white;
+}
+img{
+    width: 600px;
+}
