@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(3, 2, 2);
+}
+
+/* This CSS for Header only  */
+header{
+    border: 1.5px solid black;
+}
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 220px;
+    background-color: rgb(19, 18, 18);
+    height: 58px;
+    color: white;
+}
+#nav-ul-li-1{
+    margin: 12px 1px 10px 30px;
+    font-size: 26px;
+}
+#nav-ul-li-2{
+    margin: 12px 1px 10px 30px;
+    font-size: 26px;
+}
+#nav-ul-li-3{
+    margin: 12px 1px 10px 30px;
+    font-size: 26px;
+}
+#nav-ul-li-4{
+    margin: 12px 1px 10px 30px;
+    font-size: 26px;
+}
+#nav-ul-li-5{
+    margin: 12px 1px 10px 30px;
+    font-size: 26px;
+}
+#nav-ul-li-5{
+    margin: 12px 30px 10px -69px;
+}
+input{
+    margin: 4px 0px 0px -237px;;
+    height:40px; 
+    width:350px;
+    border-radius: 500px;
+    text-overflow: ellipsis;
+}
+/* This CSS for Header only  */
+
+/* This CSS for Main only  */
+
+.main-div-1{
+    color: rgb(196, 238, 236);
+    width: 1300px;
+    background-color: rgb(15, 14, 14);
+    position: absolute;
+    top: 61px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+table{
+    margin: 0;
+    padding: 0;
+}
+.tr-head{
+    background-color: rgb(40, 51, 59);
+    display: flex;
+}
+#th-1{
+    margin: 0px 5px 5px 5px;
+}
+
