@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+        /* The specificity of this selector is 1 */
+        h1{
+            color: aqua;
+        }
+        /* The specificity of this selector is 10, in class and attribute selector lastly mention class win the battle
+        Class selectors, attribute selectors, and pseudo-classes: 10 */
+        /* if we use multiple selector at one like this(below) then it's overall specificity will decide if it will apply or not in this ---> h1.blue => 1(h1) + 10(.blue) = 11  */
+        h1.cblue{
+            color: blue;
+        }
+        /* The specificity of this selector is 100 */ 
+        #pink{
+            color: pink;
+        }
+        [data-maroon=maroon]{
+            color: maroon;
+        }
+        .cred{
+            color: red;
+        }
+        .yellow{
+            /* color: yellow !important; ----> important override everything even inline style its specificity is 10000*/
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <h1 style="color: blueviolet;" class="yellow cred cblue">CSS Specificity</h1> ---- Most priority "inline style" -->
+        <!-- <h1 class="yellow cred cblue" id="pink">CSS Specificity</h1> ---2nd Most priority "ID Selector"-->
+        <h1 class="yellow cred cblue" data-maroon="maroon">CSS Specificity</h1>
+        <!-- lastly class Selector and attribute selector -->
+    </div>
+</body>
+</html>
