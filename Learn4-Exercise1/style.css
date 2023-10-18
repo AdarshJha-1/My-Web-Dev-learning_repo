@@ -1,76 +1,68 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.top-head{
+    /* display: inline-flex; */
+    background-color: black;
+    width: 100vw;
+    height: 7vh;
+    color: white;
+    list-style-type: none;
+}
+.header-nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-ul{
+    display: inline-flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-ul li{
+    margin: 18px 92px;
+
+}
+.nav-ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-ul #id-5{
+    font-size: 25px;
+}
+.search-label{
+    font-size: 25px;
+    margin: 18px 13px 24px 90px;
+}
+.search-input #input{
+    margin: 18px 1px;
+    width: 250px;
+    height: 27px;
+    border-radius: 150px;
 }
 
-.nav-header{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(13, 15, 17);
-    width: 100%;
-    height: 53px;
-    position: absolute;
+/* MAIN BODY CSS */
+
+.main-body{
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(97, 97, 168);
+    width: 100vw;
+    height: 85vh;
+
 }
-.nav-div{
-    display: flex;
-    width: 1876px;
-    height: 39px;
-    background-color: rgb(13, 15, 17);
-    color: white;
-    font-size: 25px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 15px;
-    right: 15px;
-    margin: auto;
-}
-.logo{
-    /* display: flex; */
-    /* width: 1220px; */
-    /* height: 47px; */
-    /* background-color: rgb(131, 166, 197); */
-    position: absolute;
-    top: 4px;
-    bottom: 0;
-    left: 200px;
-    right: 15px;
-    margin: auto;
-}
-.nav{
-    position: absolute;
-    top: 4px;
-    bottom: 0;
-    left: 585px;
-    right: 15px;
-    margin: auto;
-}
-.search{
-    position: absolute;
-    top: 4px;
-    bottom: 0;
-    left: 1350px;
-    right: 15px;
-    margin: auto;
-}
-.input-search{
-    position: absolute;
-    left: 1470px;
-    right: 15px;
-}
-#input-search-in{
-    height:35px; 
-    width:350px;
-    border-radius: 500px;
-    text-overflow: ellipsis;
-}
-.nav-pages{
-    display: flex;
-    list-style-type: none;
-    gap: 170px;
-}
-#nav-li-1{
+.main-container{
+    background-color: rgb(107, 87, 223);
     
+}
+
+
+
+/* footer CSS */
+.body-footer{
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
 }
