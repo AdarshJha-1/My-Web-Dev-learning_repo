@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and Outlines</title>
+    <style>
+        .box-con{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            margin-bottom: 20px;
+            width: 80vw;
+            color: white;
+            border: 2px solid black;
+            padding: 25px;
+            box-shadow: 5px 5px 15px 5px #888888;
+            border-radius: 50px;
+        }
+        .txt-shadow{
+            margin: 22px;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px #ffffff;
+            outline: 1px solid white ;
+            outline-offset: 20px;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+        <div class="box-con">
+            <div class="box">
+                I am a Box
+            </div>
+        </div>
+        <p class="txt-shadow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, aliquid. Nulla cum quidem eaque deleniti, ratione pariatur! Commodi dolores sed, veniam velit eius id dolor voluptate delectus officia et perferendis, consectetur voluptatibus architecto, voluptatem culpa quas! Possimus ab dignissimos alias? Quia quasi vel tenetur omnis.</p>
+
+</body>
+</html>
