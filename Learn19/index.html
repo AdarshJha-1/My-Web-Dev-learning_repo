@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        }
+        .box:first-child::first-line{
+            color: blue
+            
+        } */
+/* 
+        .boxes *{
+            color: rgb(255, 115, 0);
+            font-size: 20px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: aqua;
+        }
+        .box:nth-child(even){
+            background-color: rgb(43, 255, 0);
+        } */
+
+        .box::before{
+            content: " YOhhohoohohoh ";
+            color: red;
+        }
+        .box::after{
+            content: " YOhhohoohohoh ";
+            color: rgb(255, 0, 85);
+        }
+
+        .box::selection{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey I am Box Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aspernatur delectus in consequatur, consectetur aliquid magni id eum deleniti quia eius atque temporibus sit.</div>
+        <div class="box">Hey I am Box</div>
+        <div class="box">Hey I am Box</div>
+    </div>
+</body>
+</html>
