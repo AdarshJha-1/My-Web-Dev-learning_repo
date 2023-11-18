@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid black;
+    transform: rotate(30deg);
+    /* transform: scaleX(); */
+    /* transform: skew(5deg); */
+    /* transform: translate(); */
+    /* transform: translateX();
+    transform: translateY(); */
+    /* transform-origin: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 5px solid rgb(187, 27, 27);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
